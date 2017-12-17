@@ -1,0 +1,166 @@
+
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.5rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	border-bottom: 0.01rem solid #EFEFEF;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+.zhedang{
+	width: 100%;
+	height: 0.5rem;
+}
+#fanhuiicon{
+	display: block;
+	width: 2.97rem;
+	height: 0.5rem;
+	/* background: blue; */
+	font-size: 0.14rem;
+	line-height: 0.5rem;
+	color: #909090;
+}
+#shengluehao{
+	display: block;
+	width: 0.26rem;
+	height: 0.5rem;
+	font-size: 0.18rem;
+	line-height: 0.5rem;
+	color: #909090;
+}
+.tupianxiangqing{
+	width: 100%;
+	height: 2.95rem;
+	/* background: red; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+.tupianname{
+	width: 3.23rem;
+	height: 0.6rem;
+	/* background: blue; */
+}
+.youderen{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	font-size: 0.16rem;
+	color: #000;
+	margin-top: 0.1rem;
+}
+.zhongguoqingnian{
+	display: block;
+	width: 100%;
+	height: 0.1rem;
+	font-size: 0.1rem;
+	color: #A5A5A5;
+	line-height: 0.2rem;
+}
+.tupian{
+	width: 100%;
+	height: 2.1rem;
+	/* background: blue; */
+}
+.picture{
+	display: block;
+	width: 100%;
+	height: 2.1rem;
+}
+.zuopinfenlei{
+	display: block;
+	width: 100%;
+	height: 0.34rem;
+	/* background: red; */
+	font-size: 0.1rem;
+	line-height: 0.34rem;
+	text-align: center;
+	color: #7C7C7C;
+}
+.xiafang{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+.wenzhang{
+	width: 3.23rem;
+	font-size: 0.12em;
+	color: #3D3D3D;
+
+}
+.bottomdaohang{
+	width: 100%;
+	height: 0.45rem;
+	background: #F8F8F8;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+}
+.leftpinglun{
+	display: block;
+	width: 1.62rem;
+	height: 100%;
+	/* background: pink; */
+	display: flex;
+	align-items: center;
+}
+.shuru{
+	width: 0.18rem;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+}
+.icon-shuru{
+	color:#989898; 
+}
+.pinglun{
+	width: 0.88rem;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	line-height: 0.12rem;
+	color: #989898;
+}
+.rightpinglun{
+	display: block;
+	width: 1.62rem;
+	height: 100%;
+	/* background: blue; */
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#xinxiicon{
+	width: 0.64rem;
+	height: 0.18rem;
+	/* background: red; */
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	color: #818181;
+}
+#shoucangicon{
+	width: 0.6rem;
+	height: 0.18rem;
+	/* background: pink; */
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	color: #818181;
+}
+#fenxiangicon{
+	width: 0.33rem;
+	height: 0.18rem;
+	/* background: yellow; */
+	font-size: 0.18rem;
+	line-height: 0.18rem;
+	color: #818181;
+}

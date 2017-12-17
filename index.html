@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="js/rem.js"></script>
+        <link rel="stylesheet" href="iconfont/font_qkyw4ou8p4zbmx6r/iconfont.css">
+        <link rel="stylesheet" href="iconfont/font_uh57t3m1ivx11yvi/iconfont.css">
+        <title>新闻主页</title>
+		<link rel="stylesheet" href="css/xinwenzw.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<script src="js/swiper.min.js"></script>
+	</head>
+	<style>
+		html, body {
+			position: relative;
+			height: auto;
+		}
+		body {
+			background: #eee;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color:#000;
+			margin: 0;
+			padding: 0;
+		}
+		.swiper-container {
+			width: 100%;
+			height: 100%;
+		}
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+		.dfg{
+			width: 100%;
+			height: 189px;
+		}
+	</style>
+    <body>
+    <!-- 头部 -->
+    <header class="header">
+     	<div class="header-left">
+     		<a href="" class="iconfont icon-geiziji"></a>
+     	</div>
+     	<ul class="header-zhong">
+     	 	<li><a href="">博客</a></li>
+     	 	<li><a href="picture.html">图片</a></li>
+     	</ul>
+        <div class="header-right">
+        	<a href="" class="iconfont icon-sousuo"></a>
+        </div>
+    </header>
+    <div class="head"></div>
+    <!-- 导航 -->
+    <nav>
+    	<ul class="navd">
+    		<li><a href="">html</a></li>
+			<li><a href="">css</a></li>
+    		<li><a href="">js</a></li>
+    		<li><a href="">JQuery</a></li>
+    		<li><a href="">php</a></li>
+    	</ul>
+
+    </nav>
+    <!-- banner -->
+    <!--<a href="xinwenzw.html" class="banner">
+    	<img src="img/20170804002152.png" alt="">
+    </a>-->
+	<a href="xinwenzw.html">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="img/20170804002152.png" alt="" class="dfg"></div>
+			<div class="swiper-slide"><img src="img/chd.png" alt="" class="dfg"></div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+	</a>
+
+    <!-- 内容 -->
+    <div class="neirong">
+    	<a href="" class="neirong1">
+    		<div class="neirongs">中国青年报 28分钟前</div>
+    		<div class="neirongz">为什么有的人活着已经死了，而有的人死了却还活着？</div>
+    		<div class="neirongx">阅读：2354次·评论：1255次</div>
+    		<div class="neirongy">
+    			<img src="img/20170804012840.png" alt="">
+    		</div>
+    	</a>
+    </div>
+    <div class="neirong">
+    	<a href="" class="neirong1">
+    		<div class="neirongs">羊城晚报 40分钟前</div>
+    		<div class="neirongz1">齏月清风，琅玡榜首</div>
+    		<div class="neirongx">阅读：2354次·评论：1255次</div>
+    		<div class="neirongy">
+    			<img src="img/20170804013655.png" alt="">
+    		</div>
+    	</a>
+    </div>
+    <div class="neirong">
+    	<a href="" class="neirong1">
+    		<div class="neirongs">羊城晚报 40分钟前</div>
+    		<div class="neirongz1">《小王子》:成为一个优秀的大人</div>
+    		<div class="neirongx">阅读：2354次·评论：1255次</div>
+    		<div class="neirongy">
+    			<img src="img/20170804014008.png" alt="">
+    		</div>
+    	</a>
+    </div>
+    <div class="neirong">
+    	<a href="" class="neirong1">
+    		<div class="neirongs">中国青年报 28分钟前</div>
+    		<div class="neirongz">为什么有的人活着已经死了，而有的人死了却还活着？</div>
+    		<div class="neirongx">阅读：2354次·评论：1255次</div>
+    		<div class="neirongy">
+    			<img src="img/20170804012840.png" alt="">
+    		</div>
+    	</a>
+    </div>
+	</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+			autoplay:1000,
+        },
+    });
+</script>
